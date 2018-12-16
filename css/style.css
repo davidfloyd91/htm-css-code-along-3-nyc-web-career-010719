@@ -1,0 +1,54 @@
+/*<style>*/
+@import url('https://fonts.googleapis.com/css?family=Lora:400,900');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,900');
+/*</style>*/
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  /* font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif; */
+
+  /* is the same as: */
+  font: normal 0.75em/1.5em Merriweather;
+  color: #777;
+  text-align: right;
+}
+
+/* Class selctors */
+.milk-text {
+  font: bold 2.6em Lora;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo {
+  background: aqua;
+}
+
+#logo h1 {
+  font-family: Lora;
+}
+
+#logo h2 {
+  font-family: Merriweather;
+}
+
+#details a:link, #details a:link {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
